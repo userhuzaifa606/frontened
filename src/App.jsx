@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import PrimarySearchAppBar from './components/Navbar.jsx'
 import MuiCard from './components/Card/MuiCard'
+import { styled, alpha } from '@mui/material/styles';
+
 import '../src/index.css';
 import Category from './components/Category/category.jsx';
 import { TheContext } from './components/contaxt.js';
